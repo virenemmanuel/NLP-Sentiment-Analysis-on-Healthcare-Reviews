@@ -36,5 +36,6 @@ Healthcare reviews often reflect patients' experiences, emotions, and opinions a
 - Python 3.6+
 - Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`, `nltk`, `wordcloud`, `imbalanced-learn`
 
-
+## Conclusion
+This project demonstrates how natural language processing techniques can be applied to analyze sentiments in healthcare reviews, providing valuable insights into patient experiences and satisfaction levels. Future work can expand on this foundation by exploring more advanced models or integrating user feedback.
 
