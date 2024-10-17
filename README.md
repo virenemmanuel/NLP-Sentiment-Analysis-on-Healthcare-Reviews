@@ -39,3 +39,19 @@ Healthcare reviews often reflect patients' experiences, emotions, and opinions a
 ## Conclusion
 This project demonstrates how natural language processing techniques can be applied to analyze sentiments in healthcare reviews, providing valuable insights into patient experiences and satisfaction levels. Future work can expand on this foundation by exploring more advanced models or integrating user feedback.
 
+## RESULT 
+# Faults from the Dataset Affecting Model Performance:
+
+# Class Imbalance: 
+The dataset contains significantly fewer neutral reviews (147 neutral vs. 388 positive and 365 negative). This imbalance causes the models to focus on the more prevalent classes (positive and negative), leading to poor performance in predicting the minority class (neutral). Class imbalance makes it difficult for models to learn an even representation across all categories.
+
+# Limited Dataset Size: 
+With only 900 samples, the dataset is relatively small for training machine learning models, especially in a task as nuanced as sentiment analysis. Small datasets can cause models to overfit to the training data and struggle with generalizing to new, unseen examples.
+
+# Simple Sentiment Labeling: 
+The sentiment labels are assigned based on numerical ratings (positive, neutral, negative) but may not fully capture the complex emotions and sentiments expressed in the reviews. For instance, a review might have subtle tones of sarcasm, ambiguity, or mixed sentiment, which the label might not fully represent, causing confusion for the models.
+
+# Text Complexity and Ambiguity: 
+Sentiment analysis requires understanding context, nuances, and variations in language. The dataset's reviews might contain complex sentences, medical jargon, or mixed sentiment, making it harder for the models to discern clear sentiment using basic feature extraction methods like TF-IDF, which might not capture deeper semantic meaning.
+
+These dataset issues—class imbalance, limited size, simplified labeling, and text complexity—are key factors contributing to the underperformance of the models.
