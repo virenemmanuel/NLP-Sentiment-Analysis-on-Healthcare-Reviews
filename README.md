@@ -140,7 +140,6 @@ Recommendations
 
 
 1. Address Negative Reviews:
-
 Common Issues: Analyzing negative reviews identified common issues or concerns raised by patients are bad service is provided and they are disappointed.
 Root Cause Analysis: Conduct a root cause analysis to understand the underlying problems leading to negative feedback.
 Implement Solutions: Develop and implement action plans to address the identified issues.
