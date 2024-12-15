@@ -31,49 +31,72 @@ Healthcare reviews often reflect patients' experiences, emotions, and opinions a
 
    #Random Forest: 
 
-      An ensemble model that combines multiple decision trees to improve classification accuracy by reducing overfitting.
+      An ensemble model that combines multiple decision trees to 
+      improve classification accuracy by reducing overfitting.
 
    #Naive Bayes: 
    
-      A probabilistic model based on Bayes' theorem, often used for text classification by calculating the likelihood of a review belonging to each sentiment class.
+      A probabilistic model based on Bayes' theorem, often used for 
+      text classification by calculating the likelihood of a review 
+      belonging to each sentiment class.
 
    Support Vector Machine (SVM): 
 
-      A classifier that separates classes using a hyperplane, handling both linear and non-linear sentiment classification tasks.
+      A classifier that separates classes using a hyperplane, 
+      handling both linear and non-linear sentiment classification tasks.
 
    Logistic Regression: 
 
-      A linear classifier that models the probability of a review belonging to a specific sentiment class (positive, negative, or neutral).
+      A linear classifier that models the probability of a review 
+      belonging to a specific sentiment class (positive, negative, or neutral).
     
    
 
 
  ## 3.Model Evaluation
   
-    Model evaluation is crucial for assessing the performance of sentiment analysis models. Key metrics include accuracy, precision, recall, and F1-score. Cross-validation and hyperparameter tuning are employed to optimize model performance.
+    Model evaluation is crucial for assessing the performance of sentiment analysis models. 
+    Key metrics include accuracy, precision, recall, and F1-score. 
+    Cross-validation and hyperparameter tuning are employed to optimize model performance.
 
     - Evaluate the model performance using metrics such as precision, recall, and F1-score.
     - Display the confusion matrix to visualize model performance.
 
 Training Data
 
-    The models have achieved perfect accuracy on the training set, as evidenced by the training accuracy of 1.00.
-    The classification report and confusion matrix suggest that the model is making correct predictions for each class, with precision, recall, and F1-score all equal to 1.00
+    The models have achieved perfect accuracy on the training set, 
+    as evidenced by the training accuracy of 1.00.
+    The classification report and confusion matrix suggest that the model 
+    is making correct predictions for each class, with precision, recall, 
+    and F1-score all equal to 1.00
 
 Testing Data
 
-   The model achieved perfect accuracy on the test set, which aligns with the results on the training set.
-   The classification report and confusion matrix suggest that the model is making correct predictions for each class, with precision, recall, and F1-score all equal to 1.00.
+   The model achieved perfect accuracy on the test set, 
+   which aligns with the results on the training set.
+   The classification report and confusion matrix suggest that 
+   the model is making correct predictions for each class, with precision, recall, 
+   and F1-score all equal to 1.00.
 
 Cross-Validation of Models
 
-   All individual cross-validation accuracy scores on the training and testing data are 1.0 (100%). This suggests that, in each fold, the model achieved perfect accuracy on the training and testing data.
-   The mean accuracy on the training and testing data is also 1.0, indicating that the model consistently performed well across different subsets of the training and testing data during cross-validation
-   In summary, High accuracy on the testing set is indicative of a well-performing model. The model appears to generalize well to different subsets of both the training and testing data, as indicated by the consistent perfect accuracy scores in cross-validation as well. It is essential to approach model evaluation with a critical eye and consider the broader context of the dataset and problem
+   All individual cross-validation accuracy scores on the training and testing data are 1.0 (100%). 
+   This suggests that, in each fold, the model achieved perfect accuracy 
+   on the training and testing data.
+   The mean accuracy on the training and testing data is also 1.0, 
+   indicating that the model consistently performed well across different subsets 
+   of the training and testing data during cross-validation
+   In summary, High accuracy on the testing set is indicative of a 
+   well-performing model. The model appears to generalize well to different subsets of 
+   both the training and testing data, as indicated by the consistent perfect accuracy 
+   scores in cross-validation as well. It is essential to approach model evaluation 
+   with a critical eye and consider the broader context of the dataset and problem
 
 
 ## 4. Insights and Visualization
-In this phase, the project aims to derive actionable insights from the sentiment analysis results. Visualizations, such as word clouds and sentiment distribution plots, help in presenting findings in an interpretable manner.
+In this phase, the project aims to derive actionable insights from the sentiment analysis results. 
+Visualizations, such as word clouds and sentiment distribution plots, 
+help in presenting findings in an interpretable manner.
 
 Count of sentiments: Sentiment Count Positive reviews 515 Negative 387 Neutral 98
 
